@@ -1,7 +1,10 @@
 from flask import request, jsonify
 from app import app
+from flask_cors import CORS
 import joblib
 import re
+
+CORS(app)
 
 model = joblib.load('models/hate_speech_model.pkl')
 vectorizer = joblib.load('models/tfidf_vectorizer.pkl')
