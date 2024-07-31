@@ -1,8 +1,8 @@
 # Hate Speech Classifier
 
-This project is a web-based application that detects hate speech in text using a Logistic Regression model trained on the following [dataset](https://www.kaggle.com/datasets/waalbannyantudre/hate-speech-detection-curated-dataset/). The model achieved an F1 score of 82% on a 20% holdout of the dataset. It features a Flask backend for inference and a React frontend for user interaction. Both the frontend and backend are containerized for easy deployment.
+This project is a web application that detects hate speech in text using a Logistic Regression model trained on the following [dataset](https://www.kaggle.com/datasets/waalbannyantudre/hate-speech-detection-curated-dataset/). The model achieved an F1 score of 82% on a 20% holdout of the dataset. It features a Flask backend for inference and a React frontend for user interaction. Both the frontend and backend are containerized for easy deployment.
 
-**Important Note: This classifier is not 100% accurate. Do not use it in production! You have been warned.**
+**Important Note: This classifier is not 100\% accurate. Do not use it in production\! You have been warned.**
 
 ## Screenshots
 
